@@ -3,8 +3,8 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=filmotip.org&sz=128",
     "apiVersion": 1,
     "repositoryUrl": "",
-    "fileSize": 43436,
-    "fileHash": "sha256-a06692eb53b2c75407acb7de9051746835b8c2c895fdcb792657f98c7196bb45",
+    "fileSize": 43500,
+    "fileHash": "sha256-2443af0a13da12b4ac6cf0706bc4bf11af5f0f01a0fc7166b34078ae12a549ab",
     "status": 1,
     "language": "hr",
     "authors": [
@@ -14,7 +14,7 @@
       "Movie",
       "TvSeries"
     ],
-    "version": 4,
+    "version": 5,
     "internalName": "FilmotipPlugin",
     "description": "Filmotip - filmovi i serije sa hrvatskim/bosanskim prevodom",
     "url": "https://raw.githubusercontent.com/gabac198-cmd/cloudstream-repo/main/FilmotipPlugin.cs3",
