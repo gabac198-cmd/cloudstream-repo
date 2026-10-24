@@ -1,0 +1,31 @@
+UPUTA: KAKO STAVITI DODATAK NA SVOJ GITHUB (trajni link)
+============================================================
+
+Tvoj GitHub:  https://github.com/gabac198-cmd/cloudstream-repo
+
+Na repozitoriju se trenutno nalazi verzija 5 (radila je). Sada stavljate
+verziju 6 - iste 3 datoteke, isti postupak. Link je trajan i ne istjece.
+
+KORACI:
+ 1. Otvorite repozitorij na GitHubu.
+ 2. Kliknite "Add file" -> "Upload files".
+ 3. Ubacite ove 3 datoteke (iz ove mape):
+       repo.json
+       plugins.json
+       FilmotipPlugin.cs3
+ 4. Kliknite "Commit changes".
+ 5. Gotovo. Link za CloudStream je (nepromijenjen):
+
+      https://raw.githubusercontent.com/gabac198-cmd/cloudstream-repo/main/repo.json
+
+VAZNO (verzija 6):
+ - Postupak je isti kao i prije - mijenjate postojece datoteke.
+ - Ako GitHub pita, potvrdite zamjenu postojecih datoteka.
+
+VAZNO:
+ - Datoteke moraju biti u glavnom dijelu (root) i na grani "main".
+ - Ime datoteke "FilmotipPlugin.cs3" - tocno tako (velika slova K, P).
+ - Ako se ime razlikuje, popravite polje "url" u plugins.json.
+
+Provjera: u browseru otvorite gornji link. Ako vidite tekst (JSON),
+radi. Ako vidite "404", datoteke nisu dobro postavljene.
