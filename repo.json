@@ -1,0 +1,8 @@
+{
+  "name": "Filmotip",
+  "description": "Filmotip - filmovi i serije sa hrvatskim/bosanskim prevodom",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/gabac198-cmd/cloudstream-repo/main/plugins.json"
+  ]
+}

@@ -1,31 +1,31 @@
-UPUTA: KAKO STAVITI DODATAK NA SVOJ GITHUB (trajni link)
-============================================================
+UPUTA: KAKO STAVITI NOVU VERZIJU (8) NA SVOJ GITHUB
+======================================================
 
 Tvoj GitHub:  https://github.com/gabac198-cmd/cloudstream-repo
 
-Na repozitoriju se trenutno nalazi verzija 5 (radila je). Sada stavljate
-verziju 6 - iste 3 datoteke, isti postupak. Link je trajan i ne istjece.
+Tamo je trenutno STARA verzija 7. Treba je zamijeniti NOVOM (verzija 8).
 
-KORACI:
- 1. Otvorite repozitorij na GitHubu.
- 2. Kliknite "Add file" -> "Upload files".
- 3. Ubacite ove 3 datoteke (iz ove mape):
-       repo.json
-       plugins.json
-       FilmotipPlugin.cs3
- 4. Kliknite "Commit changes".
- 5. Gotovo. Link za CloudStream je (nepromijenjen):
+KORACI (sve tri datoteke odjednom):
+ 1. Otvori repozitorij na GitHubu.
+ 2. Klikni "Add file" -> "Upload files".
+ 3. Ubaci OVE 3 datoteke (iz mape "Filmotip-GitHub" ili iz paketa
+    "Filmotip-za-GitHub.zip"):
+        repo.json
+        plugins.json
+        FilmotipPlugin.cs3
+ 4. Dolje klikni "Commit changes".
+    (GitHub ce sam ponuditi da prepise stare datoteke - to je uredu.)
 
-      https://raw.githubusercontent.com/gabac198-cmd/cloudstream-repo/main/repo.json
-
-VAZNO (verzija 6):
- - Postupak je isti kao i prije - mijenjate postojece datoteke.
- - Ako GitHub pita, potvrdite zamjenu postojecih datoteka.
+Link za CloudStream ostaje ISTI, ne mijenja se:
+  https://raw.githubusercontent.com/gabac198-cmd/cloudstream-repo/main/repo.json
 
 VAZNO:
  - Datoteke moraju biti u glavnom dijelu (root) i na grani "main".
- - Ime datoteke "FilmotipPlugin.cs3" - tocno tako (velika slova K, P).
- - Ako se ime razlikuje, popravite polje "url" u plugins.json.
+ - Ime datoteke "FilmotipPlugin.cs3" - tocno tako (velika K, P).
 
-Provjera: u browseru otvorite gornji link. Ako vidite tekst (JSON),
-radi. Ako vidite "404", datoteke nisu dobro postavljene.
+Provjera: otvori gornji link u browseru. Ako vidis tekst, radi.
+
+AKO NE ZELIS DIRATI GITHUB:
+ Kao link repozitorija u CloudStreamu upisi:
+     https://x0.at/VGDT.json
+ (privremeni link, istjece, ali odmah daje verziju 8)

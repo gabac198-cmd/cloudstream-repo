@@ -1,0 +1,25 @@
+FILMOTIP - ZAVRSNI SET ZA GITHUB (verzija 8)
+============================================
+
+Ova mapa sadrzi 3 datoteke koje zajedno cine ispravan par:
+
+  1) repo.json            - "adresa" repozitorija (rijetko se mijenja)
+  2) plugins.json         - popis dodatka + potpis nove verzije
+  3) FilmotipPlugin.cs3   - sam dodatak (49 625 bajtova) - verzija 8
+
+Sve tri datoteke idu zajedno, odjednom, u glavni (root) dio repozitorija
+i na granu "main".
+
+Sto je popravljeno u verziji 8:
+  Prijevod je bio dobar, ali se prikazivao u KRIVIM TRENUCIMA. Vremena
+  svakog retka titla bila su pomaknuta za jedan segment (oko 10 sekundi),
+  a na nekim filmovima i dvostruko. Sada se vremena racunaju tocno i
+  prijevod se poklapa sa slikom.
+
+Kako staviti na GitHub:
+  Vidi datoteku UPUTA-GITHUB.txt u ovoj mapi.
+
+Sto znace staze u izborniku titlova:
+  - "no subtitles"  - bez titla (nudi ga sam video)
+  - "hbs-hrv"       - staza koju nudi sam video (nije nasa)
+  - "hr" (s kvacicom) - NASA staza, sada ispravna.
