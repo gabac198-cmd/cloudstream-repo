@@ -1,23 +1,20 @@
 [
   {
-    "iconUrl": "https://www.google.com/s2/favicons?domain=filmotip.org&sz=128",
-    "apiVersion": 1,
-    "repositoryUrl": "",
-    "fileSize": 49625,
-    "fileHash": "sha256-762806a5430adeb5c61021f7fe65b22d15017e42b6906a8b7e3826396747d3a5",
+    "url": "https://raw.githubusercontent.com/gabac198-cmd/saprevodom-hr-test-repo/main/SaPrevodomHrTest.cs3",
     "status": 1,
-    "language": "hr",
+    "version": 22,
+    "name": "SaPrevodom HrTest",
+    "internalName": "SaPrevodomHrTest",
+    "description": "SaPrevodom.online test v22",
     "authors": [
-      "TeraAI"
+      "recloudstream"
     ],
+    "repositoryUrl": "https://raw.githubusercontent.com/gabac198-cmd/saprevodom-hr-test-repo/main/repo.json",
     "tvTypes": [
       "Movie",
       "TvSeries"
     ],
-    "version": 8,
-    "internalName": "FilmotipPlugin",
-    "description": "Filmotip - filmovi i serije sa hrvatskim/bosanskim prevodom",
-    "url": "https://raw.githubusercontent.com/gabac198-cmd/cloudstream-repo/main/FilmotipPlugin.cs3",
-    "name": "FilmotipPlugin"
+    "language": "hr",
+    "iconUrl": ""
   }
 ]

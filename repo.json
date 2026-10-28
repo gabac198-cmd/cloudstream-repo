@@ -1,8 +1,8 @@
 {
-  "name": "Filmotip",
-  "description": "Filmotip - filmovi i serije sa hrvatskim/bosanskim prevodom",
+  "name": "SaPrevodom HR test repo",
+  "description": "SaPrevodom.online - test repozitorij (v22 - titlovi se dostavljaju kao prava datoteka)",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/gabac198-cmd/cloudstream-repo/main/plugins.json"
+    "https://raw.githubusercontent.com/gabac198-cmd/saprevodom-hr-test-repo/main/plugins.json"
   ]
 }
